@@ -28,3 +28,11 @@ Material样式的Radiobutton、CheckBox、Seekbar来自[MaterialDesignLibrary](h
 另外简单放几张图
 
 ![](https://github.com/luohaohaha/GeneralSkin/blob/master/device-2016-10-12-142841.png)
+
+![](https://github.com/luohaohaha/GeneralSkin/blob/master/device-2016-10-12-142922.png)
+
+![](https://github.com/luohaohaha/GeneralSkin/blob/master/device-2016-10-12-142943.png)
+
+![](https://github.com/luohaohaha/GeneralSkin/blob/master/device-2016-10-12-143007.png)
+
+![](https://github.com/luohaohaha/GeneralSkin/blob/master/device-2016-10-12-143055.png)
