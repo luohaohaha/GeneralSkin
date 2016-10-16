@@ -26,6 +26,16 @@ Material样式的Radiobutton、CheckBox、Seekbar来自[MaterialDesignLibrary](h
 
 ----------------------------------------------------------
 最后简单放几张图
+![](kin`、`style=@style/generalSkinText`、`style=@style/generalSkinBackground`
+Listview、scrollview、recyclerview、viewpager的换肤主要换EdgeEffect颜色 5.0之后才会有效果。
+----------------------------------------------------------
+<font color="blue">另外从网易云音乐偷了几张图，换肤选择颜色那一些色块和挖空的背景图片，感谢网易。</font>
+[颜色选择条控件详见我另外一个工程](https://github.com/luohaohaha/LinearColorPicker)
+Material样式的Radiobutton、CheckBox、Seekbar来自[MaterialDesignLibrary](https://github.com/navasmdc/MaterialDesignLibrary)，感谢原作者。
+----------------------------------------------------------
+<font color="red">强调一下，控件无背景的情况`setSupportBackgroundTintList`是无效的。</font>
+----------------------------------------------------------
+最后简单放几张图
 ![](https://github.com/luohaohaha/GeneralSkin/device-2016-10-12-142841.png)
 ![](https://github.com/luohaohaha/GeneralSkin/device-2016-10-12-142922.png)
 ![](https://github.com/luohaohaha/GeneralSkin/device-2016-10-12-142943.png)
