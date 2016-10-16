@@ -23,3 +23,11 @@ Material样式的Radiobutton、CheckBox、Seekbar来自[MaterialDesignLibrary](h
 
 ----------------------------------------------------------
 <font color="red">强调一下，控件无背景的情况`setSupportBackgroundTintList`是无效的。</font>
+
+----------------------------------------------------------
+最后简单放几张图
+![](https://github.com/luohaohaha/GeneralSkin/device-2016-10-12-142841.png)
+![](https://github.com/luohaohaha/GeneralSkin/device-2016-10-12-142922.png)
+![](https://github.com/luohaohaha/GeneralSkin/device-2016-10-12-142943.png)
+![](https://github.com/luohaohaha/GeneralSkin/device-2016-10-12-143007.png)
+![](https://github.com/luohaohaha/GeneralSkin/device-2016-10-12-143055.png)
