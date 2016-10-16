@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<saltyfish.library.SaltyfishLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <saltyfish.library.SaltyfishLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <saltyfish.library.SaltyfishLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <saltyfish.library.SaltyfishFrameLayout
+                android:id="@+id/cfl_blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clipChildren="false"
+                android:onClick="onClick">
+
+                <saltyfish.library.SaltyfishTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@mipmap/set_theme_default" />
+
+                <saltyfish.library.SaltyfishRadioButton
+                    android:id="@+id/crb_blue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right"
+                    android:button="@drawable/saltyfish_set_color_selector"
+                    android:enabled="false" />
+
+            </saltyfish.library.SaltyfishFrameLayout>
+
+            <saltyfish.library.SaltyfishTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="默认主题"
+                android:textColor="@color/cmTextColorGray"
+                android:textSize="@dimen/cm_text_size_normal" />
+        </saltyfish.library.SaltyfishLinearLayout>
+
+        <saltyfish.library.SaltyfishLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:orientation="vertical">
+
+            <saltyfish.library.SaltyfishFrameLayout
+                android:id="@+id/cfl_blue_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick">
+
+                <saltyfish.library.SaltyfishTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@mipmap/set_theme_blue_dark" />
+
+                <saltyfish.library.SaltyfishRadioButton
+                    android:id="@+id/crb_blue_light"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right"
+                    android:button="@drawable/saltyfish_set_color_selector"
+                    android:enabled="false" />
+            </saltyfish.library.SaltyfishFrameLayout>
+
+            <saltyfish.library.SaltyfishTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="多彩天地"
+                android:textColor="@color/cmTextColorGray"
+                android:textSize="@dimen/cm_text_size_normal"/>
+        </saltyfish.library.SaltyfishLinearLayout>
+    </saltyfish.library.SaltyfishLinearLayout>
+
+
+    <saltyfish.library.SaltyfishLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <saltyfish.library.SaltyfishLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <saltyfish.library.SaltyfishFrameLayout
+                android:id="@+id/cfl_custom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick">
+
+                <saltyfish.library.SaltyfishTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@mipmap/set_theme_custom" />
+
+                <saltyfish.library.SaltyfishRadioButton
+                    android:id="@+id/crb_custom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right"
+                    android:button="@drawable/saltyfish_set_color_selector"
+                    android:enabled="false" />
+            </saltyfish.library.SaltyfishFrameLayout>
+
+            <saltyfish.library.SaltyfishTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="自选颜色"
+                android:textColor="@color/cmTextColorGray"
+                android:textSize="@dimen/cm_text_size_normal" />
+        </saltyfish.library.SaltyfishLinearLayout>
+
+        <saltyfish.library.SaltyfishFrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:onClick="onClick"
+            android:visibility="visible">
+
+            <saltyfish.library.SaltyfishTextView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:visibility="invisible" />
+
+            <saltyfish.library.SaltyfishRadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:button="@drawable/saltyfish_set_color_selector" />
+        </saltyfish.library.SaltyfishFrameLayout>
+    </saltyfish.library.SaltyfishLinearLayout>
+
+
+</saltyfish.library.SaltyfishLinearLayout>

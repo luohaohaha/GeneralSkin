@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<saltyfish.library.SaltyfishFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <saltyfish.library.SaltyfishTextView
+        android:id="@+id/ctv_color"
+        android:layout_marginLeft="14dp"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        />
+
+    <saltyfish.library.SaltyfishRadioButton
+        android:id="@+id/crb_select"
+        android:layout_width="wrap_content"
+        android:enabled="false"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:button="@drawable/saltyfish_set_color_selector" />
+
+
+</saltyfish.library.SaltyfishFrameLayout>

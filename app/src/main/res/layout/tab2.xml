@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<saltyfish.library.SaltyfishFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <saltyfish.library.SaltyfishLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <saltyfish.library.SaltyfishTextView
+            style="@style/generalSkinText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="tab2" />
+
+        <saltyfish.library.SaltyfishRecyclerView
+            android:id="@+id/recyclerview"
+            style="@style/generalSkinText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </saltyfish.library.SaltyfishRecyclerView>
+
+    </saltyfish.library.SaltyfishLinearLayout>
+
+    <saltyfish.library.SaltyfishSideBar
+        style="@style/generalSkin"
+        android:id="@+id/sidebar"
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        app:textSize="12dp"
+        android:layout_gravity="center|right"
+        android:layout_height="wrap_content" />
+</saltyfish.library.SaltyfishFrameLayout>

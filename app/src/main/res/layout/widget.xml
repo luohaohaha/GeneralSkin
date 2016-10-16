@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<saltyfish.library.SaltyfishScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false">
+
+    <saltyfish.library.SaltyfishLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+
+        <saltyfish.library.SaltyfishButton
+            style="@style/generalSkinBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@drawable/default_bg"
+            android:text="SaltyfishButton"
+            android:textColor="@android:color/white" />
+
+
+        <saltyfish.library.SaltyfishTextView
+            style="@style/generalSkinText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="SaltyfishTextView" />
+
+
+        <saltyfish.library.SaltyfishCheckBox
+            style="@style/generalSkin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:button="@drawable/checkbox"
+            android:text="SaltyfishCheckBox" />
+
+        <saltyfish.library.material.checkbox.CheckBox
+            style="@style/generalSkin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="MaterialCheckBox" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <saltyfish.library.SaltyfishRadioButton
+            style="@style/generalSkin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:button="@drawable/radiobutton"
+            android:text="SaltyfishRadioButton" />
+
+            <saltyfish.library.SaltyfishRadioButton
+                style="@style/generalSkin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:button="@drawable/radiobutton"
+                android:text="SaltyfishRadioButton" />
+
+        </RadioGroup>
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <saltyfish.library.material.radiobutton.RadioButton
+                style="@style/generalSkin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:text="MaterialRadioButton" />
+
+            <saltyfish.library.material.radiobutton.RadioButton
+                style="@style/generalSkin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:text="MaterialRadioButton" />
+
+        </RadioGroup>
+
+        <saltyfish.library.SaltyfishEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="SaltyfishEditText" />
+
+        <saltyfish.library.SaltyfishImageView
+            style="@style/generalSkin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:src="@mipmap/list_slt_icn_emotion" />
+
+        <saltyfish.library.SaltyfishImageButton
+            style="@style/generalSkin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@null"
+            android:src="@mipmap/msg_btn_face" />
+
+        <saltyfish.library.material.cswitch.Switch
+            style="@style/generalSkin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin" />
+
+
+        <saltyfish.library.material.seekbar.Slider
+            style="@style/generalSkin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"></saltyfish.library.material.seekbar.Slider>
+
+    </saltyfish.library.SaltyfishLinearLayout>
+</saltyfish.library.SaltyfishScrollView>

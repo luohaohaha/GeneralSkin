@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<saltyfish.library.SaltyfishRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="saltyfish.generalskin.MainActivity">
+
+    <saltyfish.library.SaltyfishTabLayout
+        style="@style/generalSkin"
+        android:id="@+id/tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+   <saltyfish.library.SaltyfishViewpager
+       style="@style/generalSkin"
+       android:id="@+id/viewpager"
+       android:layout_below="@+id/tab"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"/>
+</saltyfish.library.SaltyfishRelativeLayout>

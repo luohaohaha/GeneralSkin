@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<saltyfish.library.SaltyfishLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <saltyfish.library.SaltyfishFrameLayout
+        android:id="@+id/skin_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginTop="25dp"
+       >
+
+        <saltyfish.library.SaltyfishImageView
+            android:id="@+id/bg_skin"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:adjustViewBounds="true"
+            android:src="@mipmap/skin_try_demo"
+            android:scaleType="fitXY"
+           />
+    </saltyfish.library.SaltyfishFrameLayout>
+
+    <ViewSwitcher
+        android:id="@+id/cll_color_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:minHeight="57dp"
+        android:layout_marginBottom="26dp"
+        android:orientation="horizontal">
+
+        <saltyfish.library.SaltyfishHorizontalScrollView
+            android:layout_width="match_parent"
+            android:scrollbars="none"
+            android:layout_height="wrap_content">
+
+            <saltyfish.library.SaltyfishLinearLayout
+                android:id="@+id/cll_color_container"
+                android:layout_width="match_parent"
+                android:paddingRight="14dp"
+                android:clipToPadding="false"
+                android:layout_height="wrap_content">
+
+            </saltyfish.library.SaltyfishLinearLayout>
+
+        </saltyfish.library.SaltyfishHorizontalScrollView>
+
+
+        <saltyfish.library.SaltyfishLinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent">
+
+            <saltyfish.library.SaltyfishImageView
+                android:id="@+id/ctv_back_arrow"
+                android:layout_width="15dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:rotation="180"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_me_arrow_right"
+                android:layout_height="15dp" />
+
+            <saltyfish.library.SaltyfishLinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <saltyfish.library.SaltyfishLinearColorPicker
+                    android:id="@+id/clcp_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|left"
+                    android:visibility="visible"
+                    app:colorPanelWidth="5dp"
+                    app:orientation="horizontal"
+                    app:thumbDrawable="@drawable/abc_btn_switch_to_on_mtrl_00012" />
+
+                <saltyfish.library.SaltyfishLinearColorPicker
+                    android:id="@+id/clcp_sub"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|left"
+                    android:visibility="visible"
+                    app:colorPanelWidth="5dp"
+                    app:orientation="horizontal"
+                    app:thumbDrawable="@drawable/abc_btn_switch_to_on_mtrl_00012" />
+            </saltyfish.library.SaltyfishLinearLayout>
+        </saltyfish.library.SaltyfishLinearLayout>
+
+    </ViewSwitcher>
+
+</saltyfish.library.SaltyfishLinearLayout>

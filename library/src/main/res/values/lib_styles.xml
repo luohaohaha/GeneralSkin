@@ -1,0 +1,31 @@
+<resources>
+    <!--换肤相关-->
+
+    <style name="generalSkin">
+
+        <item name="generalSkin">true</item>
+        <item name="generalSkinText">true</item>
+
+    </style>
+
+    <style name="generalSkinText">
+        <item name="generalSkinText">true</item>
+
+    </style>
+
+    <style name="generalSkinBackground">
+        <item name="generalSkin">true</item>
+
+    </style>
+
+    <style name="Translucent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- Note that we use the base animation style here (that is no
+             animations) because we really have no idea how this kind of
+             activity will be used. -->
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+
+</resources>

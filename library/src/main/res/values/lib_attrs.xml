@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- materila -->
+
+
+    -
+    <declare-styleable name="RippleView">
+
+        <attr name="rd_style" format="reference" />
+
+        <attr name="rd_enable" format="reference" />
+
+    </declare-styleable>
+
+
+    -
+    <declare-styleable name="RippleDrawable">
+
+        <attr name="rd_backgroundColor" format="reference|color" />
+
+        <attr name="rd_backgroundAnimDuration" format="reference|integer" />
+
+
+        -
+        <attr name="rd_maxRippleRadius" format="reference|dimension|integer">
+
+            <enum name="match_view" value="0x00000000" />
+
+        </attr>
+
+        <attr name="rd_mrippleColor" format="reference|color" />
+
+        <attr name="rd_rippleAnimDuration" format="reference|integer" />
+
+        <attr name="rd_inInterpolator" format="reference" />
+
+        <attr name="rd_outInterpolator" format="reference" />
+
+
+        -
+        <attr name="rd_maskType" format="integer">
+
+            <enum name="rectangle" value="0x00000000" />
+
+            <enum name="oval" value="0x00000001" />
+
+        </attr>
+
+
+        -
+        <attr name="rd_rippleType" format="integer">
+
+            <enum name="touch" value="0x00000000" />
+
+            <enum name="wave" value="0x00000001" />
+
+        </attr>
+
+        <attr name="rd_cornerRadius" format="reference|dimension" />
+
+        <attr name="rd_topLeftCornerRadius" format="reference|dimension" />
+
+        <attr name="rd_topRightCornerRadius" format="reference|dimension" />
+
+        <attr name="rd_bottomLeftCornerRadius" format="reference|dimension" />
+
+        <attr name="rd_bottomRightCornerRadius" format="reference|dimension" />
+
+        <attr name="rd_padding" format="reference|dimension" />
+
+        <attr name="rd_leftPadding" format="reference|dimension" />
+
+        <attr name="rd_topPadding" format="reference|dimension" />
+
+        <attr name="rd_rightPadding" format="reference|dimension" />
+
+        <attr name="rd_bottomPadding" format="reference|dimension" />
+
+
+        -
+        <attr name="rd_delayClick" format="integer">
+
+            <enum name="none" value="0x00000000" />
+
+            <enum name="untilRelease" value="0x00000001" />
+
+            <enum name="afterRelease" value="0x00000002" />
+
+        </attr>
+
+    </declare-styleable>
+
+
+    -
+    <declare-styleable name="RadioButtonDrawable">
+
+        <attr name="rbd_width" format="reference|dimension" />
+
+        <attr name="rbd_height" format="reference|dimension" />
+
+        <attr name="rbd_strokeSize" format="reference|dimension" />
+
+        <attr name="rbd_radius" format="reference|dimension" />
+
+        <attr name="rbd_innerRadius" format="reference|dimension" />
+
+        <attr name="rbd_strokeColor" format="reference|color" />
+
+        <attr name="rbd_animDuration" format="reference|integer" />
+
+    </declare-styleable>
+
+
+    -
+    <declare-styleable name="CheckBoxDrawable">
+
+        <attr name="cbd_width" format="reference|dimension" />
+
+        <attr name="cbd_height" format="reference|dimension" />
+
+        <attr name="cbd_boxSize" format="reference|dimension" />
+
+        <attr name="cbd_cornerRadius" format="reference|dimension" />
+
+        <attr name="cbd_strokeSize" format="reference|dimension" />
+
+        <attr name="cbd_strokeColor" format="reference|color" />
+
+        <attr name="cbd_tickColor" format="reference|color" />
+
+        <attr name="cbd_animDuration" format="reference|integer" />
+
+    </declare-styleable>
+
+
+    -
+    <declare-styleable name="Switch">
+
+        <attr name="sw_trackSize" format="reference|dimension" />
+
+        <attr name="sw_trackColor" format="reference|color" />
+
+
+        -
+        <attr name="sw_trackCap" format="integer">
+
+            <enum name="butt" value="0x00000000" />
+
+            <enum name="round" value="0x00000001" />
+
+            <enum name="square" value="0x00000002" />
+
+        </attr>
+
+        <attr name="sw_thumbColor" format="reference|color" />
+
+        <attr name="sw_thumbRadius" format="reference|dimension" />
+
+        <attr name="sw_thumbElevation" format="reference|dimension" />
+
+        <attr name="sw_animDuration" format="reference|integer" />
+
+        <attr name="sw_interpolator" format="reference" />
+
+        <attr name="android:gravity" />
+
+        <attr name="android:checked" />
+
+    </declare-styleable>
+
+
+    -
+    <declare-styleable name="CustomAttributes">
+
+        <!-- Color of ripple animation -->
+
+
+        <attr name="arippleColor" format="color|reference" />
+
+        <!-- Speed of ripple animation -->
+
+
+        <attr name="rippleSpeed" format="float" />
+
+        <!-- indicate if the slider must show number indicator -->
+
+
+        <attr name="showNumberIndicator" format="boolean" />
+
+        <!-- in progress view indicate max value of progress -->
+
+
+        <attr name="max" format="integer" />
+
+        <!-- in progress view indicate min value of progress -->
+
+
+        <attr name="min" format="integer" />
+
+        <!-- in progress view indicate value of progress -->
+
+
+        <attr name="value" format="integer" />
+
+        <!-- in progress view indicate value of progress -->
+
+
+        <attr name="progress" format="integer" />
+
+        <attr name="ringWidth" format="dimension" />
+
+        <!-- in switche's view indicate state of view -->
+
+
+        <attr name="check" format="boolean" />
+
+        <attr name="checkBoxSize" format="dimension" />
+
+        <attr name="thumbSize" format="dimension" />
+
+        <!-- in float button indicate icon resource -->
+
+
+        <attr name="iconDrawable" format="integer" />
+
+        <!-- in button whitch contains drawable indicate icon resource -->
+
+
+        <attr name="iconSize" format="dimension" />
+
+        <!-- in float button indicate if must start with animation -->
+
+
+        <attr name="animate" format="boolean" />
+
+        <!-- set the border of the ripple frame -->
+
+
+        <attr name="rippleBorderRadius" format="float" />
+
+        <!-- if true, delays calls to OnClickListeners until ripple effect ends -->
+
+
+        <attr name="clickAfterRipple" format="boolean" />
+
+    </declare-styleable>
+
+    <declare-styleable name="Saltyfish_Custom">
+        <!--动态换肤相关-->
+        <attr name="generalSkin" format="boolean" />
+        <attr name="generalSkinText" format="boolean" />
+        <!--颜色拾取控件相关-->
+
+        <!--颜色拾取控件方向-->
+        <attr name="color_orientation">
+            <enum name="vertical" value="0" />
+            <enum name="horizontal" value="1" />
+        </attr>
+
+        <!--颜色拾取控件拖动-->
+        <attr name="thumbDrawable" format="reference" />
+
+        <!--颜色条大小-->
+        <attr name="colorPanelWidth" format="dimension" />
+
+        <!--渐变颜色数组-->
+        <attr name="gradientArray" format="reference" />
+
+        <!--SideBar相关-->
+        <!--选中文字颜色-->
+        <attr format="color" name="selectTextColor"/>
+        <!--选中背景颜色-->
+        <attr format="color" name="selectBackGroudColor"/>
+        <!--显示文字数据-->
+        <attr format="reference" name="letter"/>
+        <!--是否显示选中背景-->
+        <attr format="boolean" name="showSelectBackGroudColor"/>
+        <!--文字大小-->
+        <attr format="dimension" name="textSize"/>
+        <!--文字颜色-->
+        <attr format="color" name="textColor"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="AutoRunTextView">
+
+        <attr name="runText" format="string" />
+
+        <attr name="runTextColor" format="color" />
+
+        <attr name="autoSwitchTime" format="integer" />
+
+    </declare-styleable>
+    <declare-styleable name="CMRoundedImageView">
+
+        <attr name="riv_corner_radius" format="dimension" />
+
+        <attr name="riv_corner_radius_top_left" format="dimension" />
+
+        <attr name="riv_corner_radius_top_right" format="dimension" />
+
+        <attr name="riv_corner_radius_bottom_left" format="dimension" />
+
+        <attr name="riv_corner_radius_bottom_right" format="dimension" />
+
+        <attr name="riv_border_width" format="dimension" />
+
+        <attr name="riv_border_color" format="color" />
+
+        <attr name="riv_mutate_background" format="boolean" />
+
+        <attr name="riv_oval" format="boolean" />
+
+        <attr name="android:scaleType" />
+        <attr name="riv_tile_mode">
+
+            <enum name="clamp" value="0" />
+
+            <enum name="repeat" value="1" />
+
+            <enum name="mirror" value="2" />
+
+        </attr>
+
+
+        -
+        <attr name="riv_tile_mode_x">
+
+            <enum name="clamp" value="0" />
+
+            <enum name="repeat" value="1" />
+
+            <enum name="mirror" value="2" />
+
+        </attr>
+
+
+        -
+        <attr name="riv_tile_mode_y">
+
+            <enum name="clamp" value="0" />
+
+            <enum name="repeat" value="1" />
+
+            <enum name="mirror" value="2" />
+
+        </attr>
+
+    </declare-styleable>
+
+</resources>
